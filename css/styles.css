@@ -1,0 +1,186 @@
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 980px;
+}
+
+.content {
+  margin-top: 2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.img-banner {
+  width: 100%;
+}
+.imglogofw {
+  width: 194px;
+  height: 146px;
+  position: absolute;
+  justify-content: flex-start;
+  margin-right: 48rem;
+  margin-top: -1.5rem;
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #1b8e99;
+  height: 45px;
+}
+.infos {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #660000;
+  height: 45px;
+  margin-top: -0.22rem;
+}
+
+.navbar-ulist {
+  display: flex;
+  list-style: none;
+  margin-right: 1.5rem;
+}
+
+.navbar-list {
+  margin-right: 1rem;
+  color: white;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+.white-div-bot {
+  margin-right: 1rem;
+  background-color: white;
+  border: 1px solid white;
+  height: 70px;
+  width: 90px;
+  position: relative;
+  bottom: 31px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #660000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.blue-div-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  background-color: rgb(146, 201, 206);
+  border: 1px solid #92c9ce;
+  height: 70px;
+  width: 90px;
+  position: relative;
+  bottom: 27px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.word-with-breakline {
+  bottom: 5px;
+  position: relative;
+  margin-right: 1rem;
+  color: white;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.divider {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.divider h3 {
+  color: #660000;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+}
+
+.divider img {
+  margin-left: 45rem;
+  margin-bottom: 1rem;
+  height: 77px;
+  width: 125px;
+  position: relative;
+  top: 7px;
+}
+
+.line {
+  position: absolute;
+  bottom: 22px;
+  width: 55rem;
+  border: none;
+  border-top: 2px solid #660000;
+}
+
+.firstCardGroup {
+  margin-top: 10px;
+  display: flex;
+  padding: 7px;
+}
+
+.card1 {
+  display: inline-block;
+  position: relative;
+  height: 376px;
+  width: 300px;
+  border: 2px solid #1b8e99;
+  margin-right: 15px;
+  flex-direction: column;
+}
+
+.card2 {
+  display: inline-block;
+  position: relative;
+  height: 376px;
+  width: 300px;
+  border: 2px solid #660000;
+  margin-right: 15px;
+}
+
+.titleCard1 {
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  background-color: #bfe0e3;
+  border: 1px solid #bfe0e3;
+  color: #1b8e99;
+  margin: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  display: flex;
+  font-size: medium;
+}
+
+.imgDroneA {
+  width: 290px;
+  align-items: center;
+  display: flex;
+  margin: 5px;
+}
+
+.descDroneA {
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #1b8e99;
+}
+
+.priceDroneA {
+  background-color: #1b8e99;
+  height: 100px;
+  width: 100%;
+}
